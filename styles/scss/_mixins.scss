@@ -1,0 +1,30 @@
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flexSpace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin position($position, $top: null, $bottom: null, $left: null, $right: null){
+    position: $position;
+    top:$top;
+    bottom:$bottom;
+    left: $left;
+    right: $right;
+}
+
+//works with scss only
+//has problem with top and first variable,
+// therefore wont be used as it has
+//  issues with CSS/SCSS
+// @mixin absolute(bottom:){
+//     position: absolute;
+//     // top: $top;
+//     bottom: $bottom;
+//     left: $left;
+//     right: $right;
+// }

@@ -1,0 +1,46 @@
+.main-btn{
+    @include flexCenter;
+    width: 200px;
+    height: 65px;
+    border-radius: $radius-64;
+}
+
+.primary-btn{
+    background-color: $primary-color;
+    color: $white;
+    font-size: $font-20;
+    font-family: Gelion-Bold;
+    border-radius: $radius-64;
+    width: 200px;
+    height: 65px;
+    transition: 0.3s ease-out;
+
+}
+
+.primary-btn:hover{
+    background-color: rgba($primary-color, .15);
+    color: $primary-color;
+}
+
+.third-btn{
+    border: 2px solid $primary-color;
+    width: 200px;
+    height: 55px;
+    color: $primary-color;
+    font-size: $font-18;
+}
+
+.secondary-btn{
+    background-color: rgba($primary-color, .15);
+    color: $primary-color;
+    font-size: $font-20;
+    font-family: Gelion-Regular;
+    border-radius: $radius-64;
+
+    transition: 0.3s ease-out;
+}
+
+.secondary-btn:hover{
+    background-color: $primary-color;
+    color: $white;
+}
