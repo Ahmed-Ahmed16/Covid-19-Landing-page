@@ -416,8 +416,7 @@ img {
   .footer .container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: center;
+    
   }
   .footer .footer-logo span {
     margin-inline: 0.8rem;
